@@ -1,0 +1,356 @@
+
+
+
+.col3 .fechita{
+margin-left: 35px;     /* modificar acaa */
+PADDING-RIGHT: 280px;
+DISPLAY: inline;
+PADDING-LEFT: 2px;
+FLOAT: left;
+PADDING-BOTTOM: 100px;
+WIDTH: 1%;                 /* modificar acaa */
+PADDING-TOP: 2px
+
+}
+
+.app{
+width: 450px;
+height: 200px;
+background: #f8f8f8;
+text-align: left;
+}
+
+.body{
+    font-size: 100%;
+}
+
+.Fechas{
+    width: 220px;
+}
+
+.Gruposs{
+    width:40%;
+    margin-top: 40px;
+}
+
+.Imagenes{
+width: 40%;
+}
+
+ul.col3
+{
+PADDING-RIGHT: 0px;
+PADDING-LEFT: 0px;
+FLOAT: left;
+PADDING-BOTTOM: 0px;
+
+WIDTH: 100%;
+PADDING-TOP: 0px;
+LIST-STYLE-TYPE: none
+}
+
+
+
+@media(max-width:2000px){
+   
+    .app{
+        text-align: left;
+        width: 450px;
+        height: 200px;
+        background: #f8f8f8;
+        }
+        .body{
+            font-size: 100%;
+        }
+        
+        .Fechas{
+            width: 220px;
+        }
+        .Gruposs{
+            width:40%;
+            margin-top: 40px;
+        }
+        .Imagenes{
+            width: 40%;
+            }
+        ul.col3
+        {
+        PADDING-RIGHT: 0px;
+        PADDING-LEFT: 0px;
+        FLOAT: left;
+        PADDING-BOTTOM: 0px;
+        
+        WIDTH: 100%;
+        PADDING-TOP: 0px;
+        LIST-STYLE-TYPE: none
+        }
+        .col3 .fechita{
+        margin-left: 115px;     /* modificar acaa */
+        PADDING-RIGHT: 450px;
+        DISPLAY: inline;
+        PADDING-LEFT: 2px;
+        FLOAT: left;
+        PADDING-BOTTOM: 100px;
+        WIDTH: 1%;                 /* modificar acaa */
+        PADDING-TOP: 2px
+        
+        }
+            
+    
+        
+       
+}
+
+
+
+
+
+
+@media(max-width:1800px){
+   
+    .app{
+        text-align: left;
+        width: 450px;
+        height: 200px;
+        background: #f8f8f8;
+        }
+        .body{
+            font-size: 100%;
+        }
+        
+        .Fechas{
+            width: 220px;
+        }
+        .Gruposs{
+            width:40%;
+            margin-top: 40px;
+        }
+        .Imagenes{
+            width: 40%;
+            }
+        ul.col3
+        {
+        PADDING-RIGHT: 0px;
+        PADDING-LEFT: 0px;
+        FLOAT: left;
+        PADDING-BOTTOM: 0px;
+        
+        WIDTH: 100%;
+        PADDING-TOP: 0px;
+        LIST-STYLE-TYPE: none
+        }
+        .col3 .fechita{
+        margin-left: 35px;     /* modificar acaa */
+        PADDING-RIGHT: 450px;
+        DISPLAY: inline;
+        PADDING-LEFT: 2px;
+        FLOAT: left;
+        PADDING-BOTTOM: 100px;
+        WIDTH: 1%;                 /* modificar acaa */
+        PADDING-TOP: 2px
+        
+        }
+            
+    
+        
+       
+}
+
+@media(max-width:1400px){
+    .app{
+        text-align: left;
+        width: 300px;
+        height: 200px;
+        background: #f8f8f8;
+        }
+        .body{
+        font-size: 90%;
+        }
+        
+        .Fechas{
+        margin-left: 60px;
+        width: 200px;
+        }
+        .Gruposs{
+        width:40%;
+        margin-top: 40px;
+        }
+        .Imagenes{
+        margin-top: 5px;
+        width: 60%;
+        height: 50px;
+        }
+        .col3 .fechita{
+        margin-left: 100px;     /* modificar acaa */
+        PADDING-RIGHT: 280px;
+        DISPLAY: inline;
+        PADDING-LEFT: 2px;
+        FLOAT: left;
+        PADDING-BOTTOM: 100px;
+        WIDTH: 1%;                 /* modificar acaa */
+        PADDING-TOP: 2px
+        
+        }
+        ul.col3
+        {
+        PADDING-RIGHT: 0px;
+        PADDING-LEFT: 0px;
+        FLOAT: left;
+        PADDING-BOTTOM: 0px;
+        
+        WIDTH: 100%;
+        PADDING-TOP: 0px;
+        LIST-STYLE-TYPE: none
+        }
+            
+
+}
+
+@media(max-width:1250px){
+    .app{
+        text-align: left;
+        width: 300px;
+        height: 200px;
+        background: #f8f8f8;
+        }
+        .body{
+        font-size: 90%;
+        }
+        
+        .Fechas{
+        margin-left: 60px;
+        width: 200px;
+        }
+        .Gruposs{
+        width:40%;
+        margin-top: 40px;
+        }
+        .Imagenes{
+        margin-top: 5px;
+        width: 60%;
+        height: 50px;
+        }
+        .col3 .fechita{
+        margin-left: 60px;     /* modificar acaa */
+        PADDING-RIGHT: 280px;
+        DISPLAY: inline;
+        PADDING-LEFT: 2px;
+        FLOAT: left;
+        PADDING-BOTTOM: 100px;
+        WIDTH: 1%;                 /* modificar acaa */
+        PADDING-TOP: 2px
+        
+        }
+        ul.col3
+        {
+        PADDING-RIGHT: 0px;
+        PADDING-LEFT: 0px;
+        FLOAT: left;
+        PADDING-BOTTOM: 0px;
+        
+        WIDTH: 100%;
+        PADDING-TOP: 0px;
+        LIST-STYLE-TYPE: none
+        }
+            
+
+}
+@media(max-width:1125px){
+    .app{
+        text-align: left;
+        width: 300px;
+        height: 200px;
+        background: #f8f8f8;
+        }
+        .body{
+        font-size: 90%;
+        }
+        
+        .Fechas{
+        margin-left: 60px;
+        width: 200px;
+        }
+        .Gruposs{
+        width:40%;
+        margin-top: 40px;
+        }
+        .Imagenes{
+        margin-top: 5px;
+        width: 60%;
+        height: 50px;
+        }
+        .col3 .fechita{
+        margin-left: 43px;     /* modificar acaa */
+        PADDING-RIGHT: 280px;
+        DISPLAY: inline;
+        PADDING-LEFT: 2px;
+        FLOAT: left;
+        PADDING-BOTTOM: 100px;
+        WIDTH: 1%;                 /* modificar acaa */
+        PADDING-TOP: 2px
+        
+        }
+        ul.col3
+        {
+        PADDING-RIGHT: 0px;
+        PADDING-LEFT: 0px;
+        FLOAT: left;
+        PADDING-BOTTOM: 0px;
+        
+        WIDTH: 100%;
+        PADDING-TOP: 0px;
+        LIST-STYLE-TYPE: none
+        }
+            
+
+}
+
+@media(max-width:1070px){
+    .app{
+        text-align: left;
+        width: 300px;
+        height: 200px;
+        background: #f8f8f8;
+        }
+        .body{
+        font-size: 90%;
+        }
+        
+        .Fechas{
+        margin-left: 60px;
+        width: 200px;
+        }
+        .Gruposs{
+        width:40%;
+        margin-top: 40px;
+        }
+        .Imagenes{
+        margin-top: 5px;
+        width: 60%;
+        height: 50px;
+        }
+        .col3 .fechita{
+        margin-left: 36.5px;     /* modificar acaa */
+        PADDING-RIGHT: 280px;
+        DISPLAY: inline;
+        PADDING-LEFT: 2px;
+        FLOAT: left;
+        PADDING-BOTTOM: 100px;
+        WIDTH: 1%;                 /* modificar acaa */
+        PADDING-TOP: 2px
+        
+        }
+        ul.col3
+        {
+        PADDING-RIGHT: 0px;
+        PADDING-LEFT: 0px;
+        FLOAT: left;
+        PADDING-BOTTOM: 0px;
+        
+        WIDTH: 100%;
+        PADDING-TOP: 0px;
+        LIST-STYLE-TYPE: none
+        }
+            
+
+}

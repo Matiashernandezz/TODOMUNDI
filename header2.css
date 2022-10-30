@@ -1,0 +1,119 @@
+/* SOLO PARA CUANDO SE USAN TABLETS O DISPOSITIVOS CON PANTALLAS CHICAS */
+.btn {
+    margin-top: 25px;
+   margin-left: 150px;
+    width: 50px;
+   height: 50px;
+   border-radius: 5px;
+   border: none;
+   transition: all 0.5s ease-in-out;
+   font-size: 20px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 600;
+   display: flex;
+   align-items: center;
+   background: #040f16;
+   color: #f5f5f5;
+ }
+ 
+ .btn .icon {
+   height: 40px;
+   width: 70px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 60px;
+   transition: all 0.5s;
+ }
+ 
+ .contenedor {
+     display: inline-block;
+ }
+ .desplegable {
+    margin-left: 40px;
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ }
+ .desplegable a {
+   text-align:right;
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+     font-family: Arial, sans-serif;
+ }
+ .desplegable a:hover {background-color: #f1f1f1}
+ .contenedor:hover .desplegable {
+     display: block;
+ }
+ .contenedor:hover .btn {
+     background-color: #d80041;
+ }
+
+
+ @media(max-width:2000px){
+    .btn {
+        display: none;
+    }
+ }
+ @media(max-width:768px){
+    .btn {
+        margin-top: 25px;
+       margin-left: 150px;
+        width: 50px;
+       height: 50px;
+       border-radius: 5px;
+       border: none;
+       transition: all 0.5s ease-in-out;
+       font-size: 20px;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-weight: 600;
+       display: flex;
+       align-items: center;
+       background: #040f16;
+       color: #f5f5f5;
+     }
+     
+     .btn .icon {
+       height: 40px;
+       width: 70px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-left: 8px;
+       transition: all 0.5s;
+     }
+     
+     .contenedor {
+         display: inline-block;
+     }
+     .desplegable {
+        margin-left: 40px;
+         display: none;
+         position: absolute;
+         background-color: black;
+         min-width: 160px;
+         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+         border: 1px solid white;
+         
+     }
+     .desplegable a {
+       text-align:right;
+         color: white;
+         padding: 12px 16px;
+         text-decoration: none;
+         display: block;
+         font-family: Arial, sans-serif;
+         border-bottom: 1px solid white;
+     }
+     .desplegable a:hover {background-color: #d80041}
+     .contenedor:hover .desplegable {
+         display: block;
+     }
+     .contenedor:hover .btn {
+         background-color: #d80041;
+     }
+ }

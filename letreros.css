@@ -1,0 +1,260 @@
+
+.alineado{
+    display: inline;
+}
+.Mundiales{
+    margin-left: 190px;
+    width:35%;
+    margin-top: 20px;
+    display:inline;
+    }
+
+    .MaximosCampeones{
+    margin-right: 50px;
+    margin-top: 70px;
+    width:35%;
+    margin-top: 150px;
+    display:inline;
+    }
+
+    .table1{
+        margin-top: 110px;
+        margin-right: -480px;
+    }
+
+    .table2{
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+  
+
+
+    @media(max-width:2000px){
+        .alineado{
+            display: inline;
+        }
+
+.Mundiales{
+    margin-left: 130px;
+    width:35%;
+    margin-top: 25px;
+    display:inline;
+    }
+
+    .MaximosCampeones{
+    margin-right: 170px;
+    margin-top: 20px;
+    width:35%;
+  
+    display:inline;
+    }
+
+    .table1{
+        margin-top: 100px;
+        margin-right: -720px;
+    }
+    
+    .table2{
+        margin-top: 20px;
+        margin-left: 80px;
+    }
+  
+
+    }
+
+
+    @media(max-width:1800px){
+        .alineado{
+            display: inline;
+        }
+
+.Mundiales{
+    margin-left: 80px;
+    width:35%;
+    margin-top: 20px;
+    display:inline;
+    }
+
+    .MaximosCampeones{
+    margin-right: 150px;
+    margin-top: 20px;
+    width:35%;
+  
+    display:inline;
+    }
+
+    .table1{
+        margin-top: 100px;
+        margin-right: -590px;
+    }
+    
+    .table2{
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+  
+
+    }
+
+    @media(max-width:1400px){
+        .alineado{
+            display: inline;
+        }
+
+.Mundiales{
+    margin-left: 80px;
+    width:35%;
+    margin-top: 20px;
+    display:inline;
+    }
+
+    .MaximosCampeones{
+    margin-right: 150px;
+    margin-top: 20px;
+    width:35%;
+  
+    display:inline;
+    }
+
+    .table1{
+        margin-top: 100px;
+        margin-right: -515px;
+    }
+    
+    .table2{
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    
+
+    }
+
+
+    @media(max-width:1180px){
+        .alineado{
+            display: inline;
+        }
+
+.Mundiales{
+    margin-left: 80px;
+    width:35%;
+    margin-top: 20px;
+    display:inline;
+    }
+
+    .MaximosCampeones{
+    margin-right: 120px;
+    margin-top: 20px;
+    width:35%;
+  
+    display:inline;
+    }
+
+    .table1{
+        margin-top: 100px;
+        margin-right: -450px;
+    }
+    
+    .table2{
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    
+    }
+
+
+   @media(max-width:1050px){
+    .alineado{
+        display: inline;
+    }
+
+.Mundiales{
+margin-left: 80px;
+width:35%;
+margin-top: 20px;
+display:inline;
+}
+
+.MaximosCampeones{
+margin-right: 120px;
+margin-top: 20px;
+width:35%;
+
+display:inline;
+}
+
+.table1{
+    margin-top: 80px;
+    margin-right: -416px;
+}
+
+.table2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+   }
+
+   @media(max-width:1050px){
+    .alineado{
+        display: inline;
+    }
+
+.Mundiales{
+margin-left: 290px;
+width:35%;
+
+display:inline;
+}
+
+.MaximosCampeones{
+margin-right: 350px;
+margin-top: 80px;
+width:35%;
+
+display:inline;
+}
+
+.table1{
+    margin-top:35px;
+    margin-right: 320px;
+    margin-bottom: 50px;
+}
+
+.table2{
+    margin-top: 10px;
+    margin-left: 220px;
+}
+   }
+
+
+   @media(max-width:768px){
+    .alineado{
+        display: inline;
+    }
+
+.Mundiales{
+margin-left: 220px;
+width:35%;
+
+display:inline;
+}
+
+.MaximosCampeones{
+margin-right: 250px;
+margin-top: 80px;
+width:35%;
+
+display:inline;
+}
+
+.table1{
+    margin-top:35px;
+    margin-right: 225px;
+    margin-bottom: 50px;
+}
+
+.table2{
+    margin-top: 10px;
+    margin-left: 130px;
+}
+   }

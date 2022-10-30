@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tipo.css">
+    <link rel="stylesheet" href="columnas.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="tablas.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="header2.css">
+    
+    <title>Todo Mundi</title>
+    <script src="https://kit.fontawesome.com/ff552baac2.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+ <!-- HEADER -->
+ <header  style="border-top: 2px solid white;border-bottom: 2px solid white; ">
+  <div class="wrapper1" >
+    <div class="logo"> <a href="index.html"><img src="img/logoo.png" alt=""  ></a></div>
+    
+    
+    <nav class="letras">
+      <a href="index.html">Inicio</a>
+      <a href="index2.html">Grupos</a>
+      <a href="index3.html">Fixture</a>
+      <a href="index4.html">Campeones</a>
+      <a href="index5.html">Predicción</a>
+    </nav>
+  </div>
+
+
+
+  <!-- para trablets -->
+  
+  <div class="contenedor">
+    <button class="btn">
+      <span class="icon">
+          <svg viewBox="0 0 175 80" width="40" height="40">
+              <rect width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+              <rect y="30" width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+              <rect y="60" width="80" height="15" fill="#f0f0f0" rx="10"></rect>
+          </svg>
+      </span>
+      <span class="text">MENU</span>
+  </button>
+  
+    <div class="desplegable">
+      <a href="index.html">Inicio</a>
+      <a href="index2.html">Grupos</a>
+      <a href="index3.html">Fixture</a>
+      <a href="index4.html">Campeones</a>
+      <a href="index5.html">Predicción</a>
+    </div>
+  </div>
+
+
+  
+</header>
+
+ <style>
+
+.form-style-6{
+ 
+	font: 95% Arial, Helvetica, sans-serif;
+	width: 400px;
+	margin: 10px auto;
+	padding: 16px;
+	background: #e7e7e7;
+  border: solid #d80041;
+}
+.form-style-6 h2{
+	background: #692128;
+	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+  border-bottom: solid #d80041;
+}
+.form-style-6 input[type="text"],
+.form-style-6 input[type="date"],
+.form-style-6 input[type="datetime"],
+.form-style-6 input[type="email"],
+.form-style-6 input[type="number"],
+.form-style-6 input[type="search"],
+.form-style-6 input[type="time"],
+.form-style-6 input[type="url"],
+.form-style-6 textarea,
+.form-style-6 select 
+{
+  
+	outline: none;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Arial, Helvetica, sans-serif;
+}
+.form-style-6 input[type="text"]:focus,
+.form-style-6 input[type="email"]:focus,
+.form-style-6 input[type="number"]:focus,
+.form-style-6 input[type="search"]:focus,
+.form-style-6 input[type="time"]:focus,
+.form-style-6 input[type="url"]:focus,
+.form-style-6 textarea:focus,
+.form-style-6 select:focus
+{
+	box-shadow: 0 0 5px #692128;
+	padding: 3%;
+	border: 1px solid #d80041;
+}
+
+.form-style-6 input[type="submit"],
+.form-style-6 input[type="button"]{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: #692128;
+	border-bottom: 2px solid white;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;	
+	color: #fff;
+}
+.form-style-6 input[type="submit"]:hover,
+.form-style-6 input[type="button"]:hover{
+	background: #d80041;
+}
+.imagenn{
+  text-align: center;
+ 
+  
+}
+ </style>
+<br><br><br>
+ 
+<div class="imagenn">
+<img src="img/pelota.jpg" style="width: 50%;border: solid #d80041;">
+</div>
+
+ <br><br><br>
+ 
+<div class="form-style-6">
+  <h2>PREDICCIÓN</h2>
+  <form action="https://formspree.io/f/mkneqkyo" method="POST" >
+  <input type="text" name="Nombre:" placeholder="Nombre" id="usuario" required/>
+ 
+  <input type="email" name="Email:" placeholder="Email " id="email" required/>
+  
+  <h3 style="font-size: 15px;margin-top: -2px;margin-left: 5px;">Ganador del Mundial</h3>
+  <select id="country" name="Pais:"  required>
+    <option value="au">Selecciona Pais...</option>
+    <option value="Argentina">Argentina</option>
+    <option value="Qatar">Qatar</option>
+    <option value="Ecuador">Ecuador</option>
+    <option value="Senegal">Senegal</option>
+    <option value="Paises Bajos">Paises Bajos</option>
+    <option value="Inglaterra">Inglaterra</option>
+    <option value="Iran">Iran</option>
+    <option value="Gales">Gales</option>
+    <option value="EE.UU">EE.UU</option>
+    <option value="rabia Saudita">Arabia Saudita</option>
+    <option value="Polonia">Polonia</option>
+    <option value="México">México</option>
+    <option value="Dinamarca">Dinamarca</option>
+    <option value="Ausralia">Ausralia</option>
+    <option value="Francia">Francia</option>
+    <option value="Tunez">Tunez</option>
+    <option value="España">España</option>
+    <option value="Japon">Japon</option>
+    <option value="Alemania">Alemania</option>
+    <option value="Costa Rica">Costa Rica</option>
+    <option value="Bélgica">Bélgica</option>
+    <option value="Canada">Canada</option>
+    <option value="Marruecos">Marruecos</option>
+    <option value="Croacia">Croacia</option>
+    <option value="Brasil">Brasil</option>
+    <option value="Serbia">Serbia</option>
+    <option value="Suiza">Suiza</option>
+    <option value="Camerún">Camerún</option>
+    <option value="Portugal">Portugal</option>
+    <option value="Uruguay">Uruguay</option>
+    <option value="Ghana">Ghana</option>
+    <option value="Corea del Sur">Corea del Sur</option>
+    
+    </select>
+  <input type="submit" value="Enviar" id="btn-enviar"/>
+  </form>
+  </div>
+
+ 
+
+
+ <br><br><br>
+ <DIV class="estadios">
+      <H1>DONDE SE JUEGA EL MUNDIAL ?</H1>
+      <br>
+       
+      <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d652821.4297647334!2d50.925180035334336!3d25.32559847777422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c534ffdce87f%3A0x1cfa88cf812b4032!2sCatar!5e0!3m2!1ses-419!2sar!4v1667087523247!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="border: 1px solid #d80041;"></iframe>
+    
+    </div>
+      <br><br><br>
+ <!--  FOOTER -->
+ <footer class="section-p1 site-footer border-top" style=" border-top: 2px solid white;border-bottom: 2px solid white; ">
+  <div class="col">
+  <h2 style="color: white">Gracias por visitar!</h2>
+  <a href="index.html">
+       <img src="img/logoo.png" alt="" style="width: 200px; height: 100px;margin-top:-15px;margin-left:-8px">
+      </a>
+       <h3 style="color: white">Esperamos que te haya gustado!</h3>
+     
+  
+  </div>
+</DIV>
+  <div class="col">
+  <h2 style="color: white">Contacto :</h2>
+  
+      <p  style="font-size: 100%;color: white"><img src="img/telefono.png" style="width:25px"> <strong>Telefono: </strong>(+54)1533526297</p>
+      <p  style="font-size: 100%;color: white"> <img src="img/correo.png" style="width:25px">  <strong>Email: </strong>Todomundi@gmail.com </p>
+  </div>
+  
+  <div class="col" style="margin-left:40px">
+      <h2 style="color: white">Redes Sociales :</h2>
+     <!-- redes sociales van aca -->
+     <ul class="wrapper" style="margin-left:-50px;margin-top:-30px">
+      <li class="icon facebook" onClick="window.location='https://facebook.com';">
+          
+          <span onClick="window.location='https://facebook.com';"><i class="fab fa-facebook-f"   ></i></span>
+      </li>
+      <li class="icon twitter" onClick="window.location='https://twitter.com';">
+         
+          <span onClick="window.location='https://twitter.com';"><i class="fab fa-twitter"></i></span>
+      </li>
+      <li class="icon instagram" onClick="window.location='https://www.instagram.com';">
+      
+          <span onClick="window.location='https://www.instagram.com';"><i class="fab fa-instagram"></i></span>
+      </li>
+  </ul>
+  
+  </div>
+  
+  
+  
+  
+
+  
+  
+  <div  class="copyright">
+            
+    <p  style="font-size: 100%;color: white">
+
+    Copyright &copy;<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>document.write(new Date().getFullYear());</script> All rights reserved | Todo Mundi </a>
+   
+    </p>
+
+  
+</div>
+
+</footer>
+
+  
+<!-- SCRIPT FORMULARIO VALIDACION -->
+
+<script>
+const btnEnviar = document.getElementById('btn-enviar');
+
+const validación = (e) => {
+  e.preventDefault();
+  const nombreDeUsuario = document.getElementById('usuario');
+  const direcciónEmail = document.getElementById('email');
+  if (usuario.value === "") {
+    alert("Por favor, escribe tu nombre de usuario.");
+    usuario.focus();
+    return false;
+  }
+    
+  if (email.value === "") {
+    alert("Por favor, escribe tu correo electrónico");
+    email.focus();
+    return false;
+  }
+
+  if (!emailVálido(email.value)) {
+    alert("Por favor, escribe un correo electrónico válido");
+    emailAddress.focus();
+    return false;
+  }
+  
+  return true; //Se pueden enviar los datos del formulario al servidor
+}
+
+const emailVálido = email => {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+submitBtn.addEventListener('click', validate);
+
+</script>
+        
+       
+</body>
+
+
+</html>

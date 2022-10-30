@@ -1,0 +1,254 @@
+.separador{
+  text-align: center;
+}
+.estadios{
+  text-align: center;
+}
+
+.grupos{
+text-align: center;
+}
+.Fechas{
+  text-align: center;
+  margin-left: 750%;
+  margin-bottom: -25px;
+}
+
+
+
+@font-face {
+  font-family: "Mystery Quest";
+  font-family: "serif";
+  src: url("mystery-quest.woff2");
+}
+
+/*    HEADER */
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background:#000000;
+	
+ 
+}
+
+.wrapper1 {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+ 
+ 
+}
+
+header .logo {
+
+	line-height:50px;
+	float:left;
+}
+
+
+header nav {
+	float:right;
+	line-height:200px;
+}
+
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:bold;
+	-webkit-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+	transition:all 500ms ease;
+}
+
+header nav a:hover {
+	background:#ff0000;
+	border-radius:50px;
+}
+
+/*  HEADER  */
+
+
+
+p {
+  font-family: "Mystery Quest", cursive;
+  font-size: 150%;
+}
+h1 {
+  font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+  font-size: 150%;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px #EB586F;
+}
+
+
+body{
+    background-image: url(img/fondito\ qatar.jpg);
+    margin: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+h1{
+    color:white;
+}
+.card {
+    width: 190px;
+    height: 254px;
+    border-radius: 20px;
+    background: #f5f5f5;
+    position: relative;
+    padding: 1.2rem;
+    border: 2px solid #c3c6ce;
+    transition: 0.5s ease-out;
+    overflow: visible;
+   }
+   
+   .card-details {
+    color: black;
+    height: 100%;
+    gap: .5em;
+    display: grid;
+    place-content: center;
+   }
+   
+   .card-button {
+    transform: translate(-50%, 125%);
+    width: 60%;
+    border-radius: 1rem;
+    border: none;
+    background-color: #d80041 ;
+    color: #fff;
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s ease-out;
+   }
+   
+   .text-body {
+    color: rgb(134, 134, 134);
+
+   }
+   
+   /*Text*/
+   .text-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin:15px;
+   }
+   
+   /*Hover*/
+   .card:hover {
+    border-color: #d80041 ;
+    box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+   }
+   
+   .card:hover .card-button {
+    transform: translate(-50%, 50%);
+    opacity: 1;
+   }
+
+
+
+
+
+
+      /*  -------------------------------  */
+      
+      .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+      
+      .mySlides {
+        display: none;
+      }
+      
+     
+      .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+      }
+      
+    
+      .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+
+      .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+      
+
+      .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+      
+      @keyframes fade {
+        from {opacity: .4}
+        to {opacity: 1}
+      }
+
+
+/* FORMULARIO  */
+
+form{
+  margin-top: 5;
+  padding: 60px;
+  max-width: 400px;
+  background-color: #E7E7E7;
+  margin: 0 auto;
+}
+
+form input, form textarea{
+  margin-bottom: 15px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box; 
+  border: none; 
+  color: #525c66; 
+  font-size: 1em;
+  resize: none; 
+}
+
+form button {
+	display: block;
+	background-color: #0095eb;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	white;
+  font-family: "Roboto", sans-serif;
+}
+form button:hover{
+	background-color: #046193;
+}
+textarea {  resize: none;}

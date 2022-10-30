@@ -1,0 +1,252 @@
+ul.col3
+{
+  PADDING-RIGHT: 0px;
+  PADDING-LEFT: 0px;
+  FLOAT: left;
+  PADDING-BOTTOM: 0px;
+  WIDTH: 100%;
+  PADDING-TOP: 0px;
+  LIST-STYLE-TYPE: none
+}
+
+ul.col3 LI
+{
+    
+
+  margin-left: 100px;     /* modificar acaa */
+  PADDING-RIGHT: 250px;
+  DISPLAY: inline;
+  PADDING-LEFT: 2px;
+  FLOAT: left;
+  PADDING-BOTTOM: 50px;
+  WIDTH: 1%;                 /* modificar acaa */
+  PADDING-TOP: 2px
+
+}
+
+@media(max-width:2000px){
+  ul.col3
+  {
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    FLOAT: left;
+    PADDING-BOTTOM: 0px;
+    WIDTH: 100%;
+    PADDING-TOP: 0px;
+    LIST-STYLE-TYPE: none
+  }
+  
+  ul.col3 LI
+  { 
+    margin-left: 160px;     /* modificar acaa */
+    PADDING-RIGHT: 250px;
+    DISPLAY: inline;
+    PADDING-LEFT: 2px;
+    FLOAT: left;
+    PADDING-BOTTOM: 50px;
+    WIDTH: 1%;                 /* modificar acaa */
+    PADDING-TOP: 2px
+  
+  }
+  
+    }
+
+  @media(max-width:1800px){
+    ul.col3
+    {
+      PADDING-RIGHT: 0px;
+      PADDING-LEFT: 0px;
+      FLOAT: left;
+      PADDING-BOTTOM: 0px;
+      WIDTH: 100%;
+      PADDING-TOP: 0px;
+      LIST-STYLE-TYPE: none
+    }
+    
+    ul.col3 LI
+    { 
+      margin-left: 100px;     /* modificar acaa */
+      PADDING-RIGHT: 250px;
+      DISPLAY: inline;
+      PADDING-LEFT: 2px;
+      FLOAT: left;
+      PADDING-BOTTOM: 50px;
+      WIDTH: 1%;                 /* modificar acaa */
+      PADDING-TOP: 2px
+    
+    }
+    
+      }
+
+      /* Para Pantalla computadora LARGAS */
+  @media(max-width:1400px){
+    ul.col3
+    {
+      PADDING-RIGHT: 0px;
+      PADDING-LEFT: 0px;
+      FLOAT: left;
+      PADDING-BOTTOM: 0px;
+      WIDTH: 100%;
+      PADDING-TOP: 0px;
+      LIST-STYLE-TYPE: none
+    }
+    
+    ul.col3 LI
+    { 
+      margin-left: 100px;     /* modificar acaa */
+      PADDING-RIGHT: 180px;
+      DISPLAY: inline;
+      PADDING-LEFT: 2px;
+      FLOAT: left;
+      PADDING-BOTTOM: 50px;
+      WIDTH: 1%;                 /* modificar acaa */
+      PADDING-TOP: 2px
+    
+    }
+    
+      }
+/* Para computadoras Largas (1200px) */
+  @media(max-width:1200px){
+    ul.col3
+    {
+      PADDING-RIGHT: 0px;
+      PADDING-LEFT: 0px;
+      FLOAT: left;
+      PADDING-BOTTOM: 0px;
+      WIDTH: 100%;
+      PADDING-TOP: 0px;
+      LIST-STYLE-TYPE: none
+    }
+    
+    ul.col3 LI
+    { 
+      margin-left: 85px;     /* modificar acaa */
+      PADDING-RIGHT: 155px;
+      DISPLAY: inline;
+      PADDING-LEFT: 2px;
+      FLOAT: left;
+      PADDING-BOTTOM: 50px;
+      WIDTH: 1%;                 /* modificar acaa */
+      PADDING-TOP: 2px
+    
+    }
+    
+      }
+
+
+      @media(max-width:1100px){
+        ul.col3
+        {
+          PADDING-RIGHT: 0px;
+          PADDING-LEFT: 0px;
+          FLOAT: left;
+          PADDING-BOTTOM: 0px;
+          WIDTH: 100%;
+          PADDING-TOP: 0px;
+          LIST-STYLE-TYPE: none
+        }
+        
+        ul.col3 LI
+        { 
+          margin-left: 35px;     /* modificar acaa */
+          PADDING-RIGHT: 200px;
+          DISPLAY: inline;
+          PADDING-LEFT: 2px;
+          FLOAT: left;
+          PADDING-BOTTOM: 50px;
+          WIDTH: 1%;                 /* modificar acaa */
+          PADDING-TOP: 2px
+        
+        }
+        
+          }
+
+/* Para Pantalla de computadoras */
+@media(max-width:1000px){
+    ul.col3
+    {
+      PADDING-RIGHT: 0px;
+      PADDING-LEFT: 0px;
+      FLOAT: left;
+      PADDING-BOTTOM: 0px;
+      WIDTH: 100%;
+      PADDING-TOP: 0px;
+      LIST-STYLE-TYPE: none
+    }
+    
+    ul.col3 LI
+    { 
+      margin-left: 75px;     /* modificar acaa */
+      PADDING-RIGHT: 210px;
+      DISPLAY: inline;
+      PADDING-LEFT: 2px;
+      FLOAT: left;
+      PADDING-BOTTOM: 50px;
+      WIDTH: 1%;                 /* modificar acaa */
+      PADDING-TOP: 2px
+    
+    }
+    
+      }
+
+/* 850px */
+@media(max-width:850px){
+    ul.col3
+    {
+      PADDING-RIGHT: 0px;
+      PADDING-LEFT: 0px;
+      FLOAT: left;
+      PADDING-BOTTOM: 0px;
+      WIDTH: 100%;
+      PADDING-TOP: 0px;
+      LIST-STYLE-TYPE: none
+    }
+    
+    ul.col3 LI
+    { 
+      margin-left: 45px;     /* modificar acaa */
+      PADDING-RIGHT: 190px;
+      DISPLAY: inline;
+      PADDING-LEFT: 2px;
+      FLOAT: left;
+      PADDING-BOTTOM: 50px;
+      WIDTH: 1%;                 /* modificar acaa */
+      PADDING-TOP: 2px
+    
+    }
+    
+      }
+
+
+
+
+
+
+
+/* Para Tablets */
+@media(max-width:768px){
+    ul.col3
+    {
+      PADDING-RIGHT: 0px;
+      PADDING-LEFT: 0px;
+      FLOAT: left;
+      PADDING-BOTTOM: 0px;
+      WIDTH: 100%;
+      PADDING-TOP: 0px;
+      LIST-STYLE-TYPE: none
+    }
+    
+    ul.col3 LI
+    { 
+      margin-left: 80px;     /* modificar acaa */
+      PADDING-RIGHT: 250px;
+      DISPLAY: inline;
+      PADDING-LEFT: 2px;
+      FLOAT: left;
+      PADDING-BOTTOM: 50px;
+      WIDTH: 1%;                 /* modificar acaa */
+      PADDING-TOP: 2px
+    
+    }
+    
+      }
